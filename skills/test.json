@@ -7,7 +7,8 @@
   ],
   "version": "1.0.0",
   "commands": [
-    "test"
+    "test",
+    "skill"
   ],
   "runFile": "test.cjs"
 }

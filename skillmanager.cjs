@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const skillPath = "./skills/";
-const command = "test";
+const command = "skill";
 
 function loadSkills() {
     fs.readdir(skillPath, (err, files) => {
@@ -43,6 +43,8 @@ function loadSkills() {
         });
     });
 }
+
+loadSkills();
 
 
 function unloadSkills() {
