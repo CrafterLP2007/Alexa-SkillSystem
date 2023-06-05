@@ -1,0 +1,12 @@
+{
+  "name": "alexaskill-system",
+  "version": "1.0.0",
+  "description": "A skillsystem for Alexa",
+  "main": "skillmanager.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node skillmanager.cjs"
+  },
+  "author": "CrafterLP_2K7",
+  "license": "ISC"
+}

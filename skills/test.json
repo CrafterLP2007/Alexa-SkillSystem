@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "description": "A test skill",
+  "authors": [
+    "CrafterLP_2K7",
+    "RealZone22"
+  ],
+  "version": "1.0.0",
+  "commands": [
+    "test"
+  ],
+  "runFile": "./test.cjs"
+}
