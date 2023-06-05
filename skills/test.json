@@ -9,5 +9,5 @@
   "commands": [
     "test"
   ],
-  "runFile": "./test.cjs"
+  "runFile": "test.cjs"
 }
