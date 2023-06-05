@@ -29,9 +29,11 @@ function loadSkills() {
                             const skillModule = require(skillFilePath);
                             
                             if(typeof skillModule.onEnable === "function" && typeof skillModule.onDisable === "function") {
+                                console.log("Loading skill: " + json.name + " by: " + json.authors);
                                 skillModule.onEnable();
                             } else {
                                 console.log("Error: Can't find functions: 'onEnable()' and 'onDisable' in SkillModule: ", skillFilePath)
+                                console.log("Unloading skill: " + json.name + " by: " + json.authors);
                                 skillModule.onDisable();
                             }
                         }
