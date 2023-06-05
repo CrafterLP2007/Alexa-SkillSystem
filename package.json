@@ -1,7 +1,7 @@
 {
-  "name": "alexaskill-system",
-  "version": "1.0.0",
-  "description": "A skillsystem for Alexa",
+  "name": "voiceassistantskill-system",
+  "version": "1.0.1",
+  "description": "A skillsystem for CyanCrafting-VoiceAssistant",
   "main": "skillmanager.cjs",
   "type": "module",
   "scripts": {

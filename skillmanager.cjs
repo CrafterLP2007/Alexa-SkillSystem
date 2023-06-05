@@ -46,9 +46,6 @@ function loadSkills() {
     });
 }
 
-loadSkills();
-
-
 function unloadSkills() {
     fs.readdir(skillPath, (err, files) => {
         if (err) {

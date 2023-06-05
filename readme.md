@@ -1,6 +1,6 @@
 # Alexa Skill Manager Documentation
 
-This documentation provides an overview of the Alexa Skill Manager and describes how to use it with a sample skill. The sample skill is defined in a JSON file and includes attributes such as name, description, authors, version, commands, and a run file. The run file, written in CommonJS (CJS) format, contains two methods: onEnable and onDisable. Danger. This SkillSystem is only for [CyanCrafting Alexa](https://github.com/CyanCrafting-Projects)!
+This documentation provides an overview of the Alexa Skill Manager and describes how to use it with a sample skill. The sample skill is defined in a JSON file and includes attributes such as name, description, authors, version, commands, and a run file. The run file, written in CommonJS (CJS) format, contains two methods: onEnable and onDisable. Danger. This SkillSystem is only for [CyanCrafting-VoiceAssistant](https://github.com/CyanCrafting-Projects)!
 
 ## Skill Definition
 
